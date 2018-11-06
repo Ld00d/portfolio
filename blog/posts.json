@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "The Beginning",
+      "date": "11/02/2018",
+      "file": "the_beginning.md"
+    },
+    {
+      "title": "md 2 json",
+      "date": "11/02/2018",
+      "file": "md_2_json.md"
+    },
+    {
+      "title": "On Second Thought",
+      "date": "11/04/2018",
+      "file": "on_second_thought.md"
+    }
+  ]
+}
