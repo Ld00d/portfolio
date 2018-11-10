@@ -42,7 +42,6 @@ a:hover {
 }
 
 .content-view {
-  margin: 3em;
   margin-top: 4em;
 }
 </style>

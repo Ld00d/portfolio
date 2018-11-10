@@ -19,6 +19,12 @@ export default new Router({
       component: Blog
     },
     {
+      path: '/blog/:title',
+      name: 'Blog with Title',
+      component: Blog,
+      props: true
+    },
+    {
       path: '/resume',
       name: 'Resume',
       component: Resume

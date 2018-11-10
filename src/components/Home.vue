@@ -38,4 +38,9 @@ export default {
   padding: 1em;
 }
 
+.home {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 </style>

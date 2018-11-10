@@ -12,20 +12,24 @@ export default {
   props: ['skills'],
   data() {
     return {
-      skillsTable: []
+      columns: 4
     }
   },
-  watch: {
-    skills: function(n) {
-      this.skillsTable = []
+  computed: {
+    skillsTable: function() {
+      if (!this.skills) {
+        return []
+      }
+      const table = []
       var row = []
-      for (var i = 0; i < n.length; i++) {
-        row.push(n[i])
-        if ((i + 1) % 4 === 0 || i + 1 === n.length) {
-          this.skillsTable.push(row)
+      for (var i = 0; i < this.skills.length; i++) {
+        row.push(this.skills[i])
+        if ((i + 1) % this.columns === 0 || i + 1 === this.skills.length) {
+          table.push(row)
           row = []
         }
       }
+      return table
     }
   }
 }

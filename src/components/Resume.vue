@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="resume">
     <h1>{{ resume.name }}</h1>
     <h2>Summary</h2>
     <div>{{ resume.summary }}</div>
@@ -34,12 +34,15 @@ export default {
   },
   created() {
     resumeSvc.getResumeData().then(r => {
-      this.resume = r.data
+      this.resume = r
     })
   }
 }
 </script>
 
 <style scoped>
-
+.resume {
+  margin-left: 3em;
+  margin-right: 3em;
+}
 </style>

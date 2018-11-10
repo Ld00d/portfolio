@@ -14,6 +14,7 @@
     "process-blog-files": "node build/process-blog-files.js"
   },
   "dependencies": {
+    "moment": "^2.22.2",
     "purecss": "^1.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"

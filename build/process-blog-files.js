@@ -13,7 +13,7 @@ fs.readdirSync('static/blog')
 
   })
 
-const files = []
+const files = {}
 
 fs.readdirSync('blog/')
   .filter(f => f.endsWith('.md'))
@@ -48,7 +48,7 @@ fs.readdirSync('blog/')
       'fileName': oFlNm
     }
 
-    files.push(metadata)
+    files[title] = metadata
 
 
   })
