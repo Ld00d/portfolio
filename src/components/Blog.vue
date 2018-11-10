@@ -1,12 +1,16 @@
 <template>
   <div class="blog">
-
+    Blog
   </div>
 </template>
 
 <script>
+
+import PostList from '@/components/blog/PostList'
+
 export default {
-  Name: 'Blog'
+  name: 'Blog',
+  components: {PostList}
 }
 </script>
 

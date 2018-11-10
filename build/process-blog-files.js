@@ -20,7 +20,8 @@ fs.readdirSync('blog/')
   .forEach(f => {
     const fNmNoExt = f.substring(0, f.length - 3)
     const fp = path.resolve('blog', f)
-    const op = path.resolve('static/blog', fNmNoExt + '.blog.html')
+    const oFlNm = fNmNoExt + '.blog.html'
+    const op = path.resolve('static/blog', oFlNm)
     console.log(chalk.cyan(`  Processing file ${fp}`))
     const text = fs.readFileSync(fp, 'utf-8')
     const html = md.render(text)
@@ -44,7 +45,7 @@ fs.readdirSync('blog/')
     const metadata = {
       'title': title,
       'createdDate': birthtime,
-      'fileName': f
+      'fileName': oFlNm
     }
 
     files.push(metadata)

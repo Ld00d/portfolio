@@ -1,0 +1,160 @@
+{
+  "name": "Brian L. Lampe",
+  "email": "brian.l.lampe@gmail.com",
+  "github": "https://github.com/Ld00d",
+  "linkedin": "http://www.linkedin.com/pub/brian-lampe/b/a20/235",
+  "summary": "Full stack developer primarily focused on web applications.",
+  "skills": ["JavaScript", "Java", "C#", "Java EE", "Spring", "AngularJS", "Knockout", "RequireJS", "Bootstrap", "Grunt", "Linux", "Apache", "GlassFish", "Git", "REST", "MSSQL", "MYSQL"],
+  "experience": [{
+      "company": "Personal Projects",
+      "contract": false,
+      "location": "",
+      "dates": "",
+      "title": "",
+      "skills": ["iOS", "Objective-C", "JavaScript", "Vue.js", "Pure.css", "PHP", "MYSQL"],
+      "accomplishments": [
+        "Developed and deployed an iPhone app for a tech podcast called BadVoltage.",
+        "Operate a Mountain Biking forum on phpBB3.  Created a topic events calendar and overhauled \"thanks\" mod in PHP.",
+        "This resume page is built using Vue.js and Pure.css"
+      ]
+    }, {
+      "company": "Medsphere Systems Corp.",
+      "contract": false,
+      "location": "Carlsbad, CA",
+      "dates": "2/2012 - Present",
+      "title": "Sr. Software Engineer",
+      "skills": ["Durandal (Knockout, RequireJS, jQuery)", "AngularJS", "Grunt", "JavaScript", "C#", "MVVM", "git", "Java"],
+      "accomplishments": [
+        "Collaborate on AngularJS single page applications with Java REST services",
+        "Lead developer on single page web applications using Durandal (Knockout, RequireJS, jQuery) and Java REST services.",
+        "Maintain Java Web Services",
+        "UI developer for EHR application building COM exposed WPF compoonents wrtten in C# in an MVVM pattern.",
+        "Mentor and assist other developers with development and troublshooting."
+
+      ]
+    },
+
+    {
+      "company": "TransCore",
+      "contract": false,
+      "location": "San Diego, CA",
+      "dates": "10/2010 - 2/2012",
+      "title": "Sr. Software Engineer",
+      "skills": ["C#", "ASP.Net", "MVC3", "Ninject", "MOQ", "WCF", "MSSQL", "SVN"],
+      "accomplishments": [
+        "Top to bottom developer for toll systems web applications implementing new functionality and addressing bugs in existing code.",
+        "Primary WCF services developer.",
+        "Created interface framework for communication between third parties and back office system.",
+        "Designed and developed plug-in architecture for the interface framework that loads a configured messaging system at run-time.",
+        "Built a flexible parsing system that employs run-time compilation and separate application domains to allow for quick updates without restarting the service.",
+        "Produced an MVC3 web application that uses Ninject dependency injection and MOQ mocked objects for testing."
+      ]
+    }, {
+      "company": "Medsphere Systems Corp.",
+      "contract": true,
+      "location": "Carlsbad, CA",
+      "dates": "5/2010 - 10/2010",
+      "title": "Sr. Software Engineer",
+      "skills": ["C#", "WPF", "MVVM", "Bazaar", "Ninject"],
+      "accomplishments": [
+        "Helped architect and develop an MVVM WPF pharmacy application using Ninject dependency injection.",
+        "Developed tools and helper classes to make MVVM development easier and faster.",
+        "Created C# code generator tool in Python that produced Model and ViewModel interfaces and implementation."
+
+      ]
+    }, {
+      "company": "Qualcomm Inc.",
+      "contract": true,
+      "location": "San Diego, CA",
+      "dates": "10/2009 - 5/2010",
+      "title": "Sr. Programmer Analyst",
+      "skills": ["C#", "ASP.Net", "MSSQL", "XML", "WCF"],
+      "accomplishments": [
+        "Tech Lead on integration project that batches files through an MFT application.",
+        "Designed framework that processes data feeds and their scheduling and delivery mechanisms all of which are consumed without code excluding the business processes that are handled with plug-ins.",
+        "Refactored and enhanced existing reporting application to a more object oriented approach to allow for flexibility of further enhancement."
+      ]
+    }, {
+      "company": "The Upper Deck Company",
+      "contract": false,
+      "location": "Carlsbad, CA",
+      "dates": "9/2008 - 10/2009",
+      "title": "Sr. Software Engineer",
+      "skills": ["WCF", "C#", "ASP.Net", "MSSQL", "XML", "SSIS"],
+      "accomplishments": [
+        "Back-end developer for public facing website using WCF services hosted on Windows Services with MS SQL database. ",
+        "Completed multi-threaded logging utility communicating through MSMQ and ultimately logging via the Enterprise Library Logging Application Block.",
+        "Designed and developed services for an on-line comic book style choose-your-own-adventure (cyoa) game that maintains a user inventory and game movement history as well as displaying conditional elements (conditional on inventory) and a map of the player’s choices. ",
+        "Devised and implemented a dynamic SQL parameterized query command builder that uses XML mapping of tables' relationships to bring in joins needed for selected WHERE and SELECT fields.",
+        "Created a PayPal Instant Payment Notification (IPN) page that gets detailed transaction information from the PayPal and eBay web services.",
+        "Developed modular, plug-in based framework that can house controls in ASP.Net pages or optionally, Windows Forms applications.",
+        "Built SSIS package for daily stage to production data push. ",
+        "Wrote T-SQL stored procedures and DDL scripts for above projects. ",
+        "Assisted and directed junior developers and provided technical direction as a senior-level member of a medium sized team."
+      ]
+    }, {
+      "company": "Continental DataGraphics",
+      "contract": false,
+      "location": "San Diego, CA",
+      "dates": "5/2006 - 9/2008",
+      "title": "Software Developer II",
+      "skills": ["C#", "WinForms", "ASMX", "ASP.Net", "VB.Net", "XML"],
+      "accomplishments": [
+        "Lead developer for enterprise-wide .Net Windows.Forms/WebServices application",
+        "Lead .Net developer for new application project that is to be the central point of business process.",
+        "Created a plug-in based MDI application framework that loads MDI child Windows.Forms forms at run time.",
+        "Refactored solution which uses a .Net FileSystemWatcher on a Windows Service to create ReportingServices style local reports",
+        "Troubleshoot existing classic ASP and ASP.Net applications",
+        "Developed a report generating solution consisting of three Windows applications:  one for user entry, another for data extraction, and a third for part data extraction and ultimately Excel spreadsheet creation.  ",
+        "Develop user-defined controls for Windows.Forms applications.",
+        "Built a terminal emulator library for 6530 conversation mode terminal emulation over TCP/IP Sockets that sends messages to a Tandem machine and logs the output to a writable I/O Stream."
+      ]
+    }, {
+      "company": "Zimmer Dental",
+      "contract": false,
+      "location": "Carlsbad, CA",
+      "dates": "6/2005 - 5/2006",
+      "title": "Web Developer",
+      "skills": ["ASP.Net", "C#", "VB.Net", "MSSQL", "XML"],
+      "accomplishments": [
+        "Created an ASP.Net web request system for making changes to the website (CMS) and tracking the history of the changes and the process as they are made.",
+        "Developed several self-publish options for users to directly change information displayed on dynamic ASP.Net web pages.",
+        "Designed tools to be used in web pages such as a .Net WebControl that outputs a client-side JavaScript calendar for choosing dates without posting back.",
+        "Built an ASP.Net reporting tool using Microsoft Office Web Components on the client side and an Excel Worksheet XML generator output through an ASP.Net page on the back.",
+        "Wrote a programmatically updated site map that uses XML files generated from a third party tree menu application.",
+        "Developed class library layers and tools for MSSQL data access, exception logging, and dynamic image manipulation."
+      ]
+    }, {
+      "company": "Continental DataGraphics",
+      "contract": false,
+      "location": "San Diego, CA",
+      "dates": "2/1998 - 6/2005",
+      "title": "Subject Matter Expert",
+      "skills": ["C#", "Tandem C", "MSSQL", "SQL/MP", "DTS", "ASP", "ASP.Net"],
+      "accomplishments": [
+        "Created a Windows Service that implements a FileSystemWatcher to load flat files to the SQLServer via programmatically executed DTS packages.",
+        "Wrote Tandem C program with embedded SQL to query Non-Stop database and produce tables of data-entry group production statistics.",
+        "Built DTS COM object wrapper class library for flat file data transfer to make programmatic DTS Package generation easier.",
+        "Designed and maintained corporate intranet running on IIS 6.0 including ASP data access pages with OLEDB connections to Access databases."
+
+      ]
+    }
+  ],
+  "education": [{
+    "degree": "Certificate of Completion, Computer Programming 2004 (GPA 4.0)",
+    "school": "Mesa College",
+    "location": "San Diego, CA",
+    "dates": "2003-2004"
+  }, {
+    "degree": null,
+    "school": "Alvin Community College",
+    "location": "Alvin, TX",
+    "dates": "1991-1994"
+  }, {
+    "degree": null,
+    "school": "University of Houston",
+    "location": "Houston, TX",
+    "dates": "1990"
+  }]
+
+}

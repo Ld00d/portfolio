@@ -23,6 +23,15 @@ h1 {
   font-size: 1.5em;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
 a {
   color: var(--primary);
 }

@@ -5,7 +5,7 @@
         <h1>My Portfolio</h1>
       </div>
       <div class="pure-u-1">
-        <img style="float:right; width: 200px; padding: 1em;" src="/static/circles.png" title="Just some random circles" />
+        <img class="circles" src="/static/circles.png" title="Just some random circles" />
         <p>
           This is a website I threw together to demonstrate some of my know-how with regard to software development. The UI is running on <a href="https://vuejs.org" title="Vue.js">Vue.js</a>. <a href="https://purecss.io" title="Pure.css">Pure.css</a> is providing a responsive grid layout and some other UI styles. I also made the silly picture on the right to break things up.
         </p>
@@ -31,5 +31,11 @@ export default {
 </script>
 
 <style scoped>
+
+.circles {
+  float:right;
+  width: 200px;
+  padding: 1em;
+}
 
 </style>
