@@ -25,8 +25,13 @@
 </template>
 
 <script>
+import titleSvc from '@/services/titleSvc'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  created() {
+    titleSvc.updateTitle('Home')
+  }
 }
 </script>
 

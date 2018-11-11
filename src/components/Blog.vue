@@ -17,6 +17,7 @@ import PostList from '@/components/blog/PostList'
 import PostView from '@/components/blog/PostView'
 import blogSvc from '@/services/blogSvc'
 import moment from 'moment'
+import titleSvc from '@/services/titleSvc'
 
 export default {
   name: 'Blog',
@@ -63,6 +64,8 @@ export default {
 
       posts.sort((a, b) => (b.createdDate - a.createdDate))
       this.posts = posts
+
+      titleSvc.updateTitle(`Blog > ${this.post.title}`)
     })
   }
 }

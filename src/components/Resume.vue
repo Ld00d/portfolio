@@ -20,6 +20,7 @@
 
 <script>
 import resumeSvc from '@/services/resumeSvc'
+import titleSvc from '@/services/titleSvc'
 import ResumeSkills from '@/components/resume/ResumeSkills'
 import ResumeExperience from '@/components/resume/ResumeExperience'
 import ResumeEducation from '@/components/resume/ResumeEducation'
@@ -33,6 +34,7 @@ export default {
     }
   },
   created() {
+    titleSvc.updateTitle('Resume')
     resumeSvc.getResumeData().then(r => {
       this.resume = r
     })
