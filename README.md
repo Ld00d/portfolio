@@ -1,6 +1,8 @@
 # portfolio
 
-> My portfolio
+This is a website I threw together to demonstrate some of my know-how with regard to software development. The UI is running on [Vue.js](https://vuejs.org "Vue.js"). [Pure.css](https://purecss.io "Pure.css") is providing a responsive grid layout and some other UI styles.
+
+You can see the output at [http://brianlampe.com](http://brianlampe.com).
 
 ## Build Setup
 
