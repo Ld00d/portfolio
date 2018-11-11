@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Ld00d/portfolio.svg?branch=master)](https://travis-ci.com/Ld00d/portfolio)
+
 # portfolio
 
 This is a website I threw together to demonstrate some of my know-how with regard to software development. The UI is running on [Vue.js](https://vuejs.org "Vue.js"). [Pure.css](https://purecss.io "Pure.css") is providing a responsive grid layout and some other UI styles.
